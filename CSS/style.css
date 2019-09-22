@@ -1,8 +1,8 @@
 html {
     min-height: 100%;
-    max-width: 100%;
-    position: relative;
-    overflow-x: hidden;
+    max-width: 100% !important;
+    /* position: relative; */
+    overflow-x: hidden !important;
 }
 
 body {
@@ -89,6 +89,7 @@ body {
 .left-shape {
     display: inline;
     position: absolute;
+    height: 60%;
     right: 0;
 }
 
@@ -236,7 +237,7 @@ td span {}
     background-color: #F8F8F8;
     padding-top: 0;
     padding-bottom: 0;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 0;
     width: 100%;
     height: auto;
