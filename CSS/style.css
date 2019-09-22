@@ -1,0 +1,397 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Kalam', cursive;
+}
+
+.navbar {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.navbar-nav .nav-item:first-child .nav-link {
+    padding-left: 0;
+    padding-right: 16px;
+}
+
+.home-shape {
+    margin-top: 100px;
+    margin-right: 64px;
+}
+
+.home-top {
+    position: relative;
+    margin-left: 64px;
+    margin-top: 32px;
+    width: 80%;
+    display: block;
+}
+
+.table-services {
+    display: inline-block;
+    margin-right: 64px;
+    margin-top: 16px;
+    margin-left: 10%;
+    position: relative;
+    float: right;
+    width: 30%;
+    height: 400px;
+}
+
+.table-services td {
+    font-size: 1.2em;
+    padding-bottom: 8px;
+}
+
+.margin-top {
+    margin-top: 24%;
+}
+
+.table-services td img {
+    width: 7%;
+    margin-right: 24px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline-div {
+    padding: 0;
+    margin: 0;
+    right: 0;
+    display: inline-block;
+    width: 50%;
+}
+
+.small-map {
+    display: inline-block;
+    margin-right: 64px;
+    margin-top: 8px;
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 400px;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 1.24em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.left-shape {
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+.responsive-text {
+    mix-blend-mode: overlay;
+}
+
+.responsive-item {
+    mix-blend-mode: overlay;
+}
+
+.home-description {
+    margin-top: 20px;
+    padding-bottom: 16px;
+    font-size: 1.24em;
+    font-weight: 300;
+    line-height: 1.7em;
+    width: 30%;
+}
+
+.large {
+    width: 80%;
+}
+
+.zero {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100;
+    ;
+}
+
+.rounded-button {
+    margin-top: 24px;
+    background: linear-gradient(to top, #37C2E2 0%, #5164EB 100%);
+    border-radius: 14px;
+    display: inline;
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    border-width: 0;
+}
+
+.contact {
+    font-size: 1.2em;
+}
+
+.contact:hover {
+    text-decoration: none;
+}
+
+.rounded-button span {
+    background: #fff;
+    display: block;
+    padding: 0.6em 1em;
+    border-radius: 10px;
+}
+
+.rounded-button:focus {
+    outline: 0;
+}
+
+.left {
+    margin-left: 24px;
+}
+
+.picker {
+    margin-right: 0;
+    padding-right: 0;
+    position: relative;
+    background: transparent;
+    border-width: 0;
+    mix-blend-mode: overlay;
+    color: rgba(0, 0, 0, .5);
+}
+
+.picker:focus {
+    outline: 0;
+}
+
+.information-table {
+    margin-top: 56px;
+    margin-left: 60px;
+}
+
+.information-table td {
+    width: 100px;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+td span {}
+
+.map {
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.map-link {
+    font-size: 1.2em;
+}
+
+.separator {
+    display: block;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    align-self: center;
+}
+
+.small {
+    width: 25%;
+}
+
+.link {
+    margin-right: 24px;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.center {
+    align-content: center;
+}
+
+.slideshow {
+    margin: 10% 0;
+    text-align: center;
+}
+
+.carousel-inner {
+    width: 90%;
+    margin: 64px auto;
+}
+
+.footer {
+    position: absolute;
+    background-color: #F8F8F8;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.footer p:last-child {
+    margin-top: 0px;
+}
+
+.footer p {
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #777;
+}
+
+@media screen and (max-width:1300px) {
+    .margin-top {
+        margin-top: 28%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .item-image {
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .margin-top {
+        margin-top: 36%;
+    }
+    .home-shape {
+        width: 30%;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .home-shape {
+        display: none;
+    }
+    .margin-top {
+        margin-top: 8%;
+    }
+    .map-link {
+        font-size: 1em;
+    }
+    .small {
+        display: none;
+    }
+    .slideshow {
+        margin-bottom: 5%;
+    }
+    .carousel-inner {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .information-table {
+        margin-left: 24px;
+    }
+    .table-services td {
+        font-size: 1.2em;
+        padding-bottom: 12px;
+    }
+    .table-services td img {
+        width: 4%;
+    }
+    .navbar {
+        margin-left: 12px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .home-top {
+        width: 100%;
+        padding: 0;
+        margin-left: 24px;
+    }
+    .inline-div {
+        width: 100%;
+        display: block;
+    }
+    .table-services {
+        width: 100%;
+        display: block;
+        margin: 32px 0;
+    }
+    .small-map {
+        position: fixed;
+        width: 100%;
+        margin: 32px;
+        float: none;
+        margin-right: 24px;
+        margin-left: -24px;
+    }
+    .left-shape {
+        position: absolute;
+        right: 0;
+        height: 40%;
+    }
+    .home-description {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .link {
+        margin-right: 16px;
+    }
+    .left-shape {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .table-services td img {
+        width: 5%;
+    }
+    .auto-size {
+        font-size: 1.8em;
+    }
+    .home-top {
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .information-table {
+        margin-top: 32px;
+    }
+    .rounded-button {
+        display: block;
+    }
+    .left {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .information-table {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 0;
+        padding-right: 8px;
+        font-size: 0.8em;
+    }
+    .picker {
+        font-size: 0.8em;
+    }
+}
