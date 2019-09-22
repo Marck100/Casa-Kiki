@@ -396,6 +396,9 @@ td span {}
     .information-table {
         margin-top: 64px;
     }
+    .fixed {
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -406,5 +409,11 @@ td span {}
     }
     .picker {
         font-size: 0.8em;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .fixed {
+        position: absolute;
     }
 }
