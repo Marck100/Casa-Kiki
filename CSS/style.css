@@ -1,5 +1,4 @@
-html,
-body {
+html {
     min-height: 100%;
     max-width: 100% !important;
     position: relative;
@@ -8,6 +7,8 @@ body {
 
 body {
     font-family: 'Kalam', cursive;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .navbar {
@@ -161,6 +162,7 @@ body {
 .picker {
     margin-right: 0;
     padding-right: 0;
+    margin-left: 16px;
     position: relative;
     background: transparent;
     border-width: 0;
@@ -245,6 +247,10 @@ td span {}
     bottom: 0;
     text-align: center;
     vertical-align: middle;
+}
+
+.fixed {
+    position: fixed;
 }
 
 .footer p {
