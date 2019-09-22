@@ -20,7 +20,7 @@ function setPickerElement() {
 
     var preference = localStorage.getItem("language")
 
-    if (preference === undefined) {
+    if (preference === null) {
 
         preference = "en"
 
