@@ -91,11 +91,11 @@ body {
 }
 
 .responsive-text {
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
 }
 
 .responsive-item {
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
 }
 
 .home-description {
@@ -160,7 +160,7 @@ body {
     position: relative;
     background: transparent;
     border-width: 0;
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
     color: rgba(0, 0, 0, .5);
 }
 
