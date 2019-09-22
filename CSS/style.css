@@ -1,6 +1,8 @@
 html {
     min-height: 100%;
+    max-width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 body {
@@ -352,6 +354,9 @@ td span {}
         margin-right: 16px;
     }
     .left-shape {
+        display: none;
+    }
+    .large-table {
         display: none;
     }
 }
