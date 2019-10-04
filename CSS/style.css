@@ -21,6 +21,65 @@ body {
     padding-right: 16px;
 }
 
+.bubble {
+    position: fixed;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin: 100px;
+    margin-top: 32px;
+    transition: transform .4s ease-in-out;
+    z-index: 1000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover
+}
+
+#right-bubble {
+    top: 8%;
+    right: 4%;
+}
+
+#middle-bubble {
+    bottom: 12%;
+    left: 24%;
+    width: 360px;
+    height: 360px;
+}
+
+#left-bubble {
+    bottom: 6%;
+    left: 2%;
+    width: 32vh;
+    height: 32vh;
+}
+
+.table-bubble {
+    position: relative;
+    width: 24vw;
+    height: 24vw;
+    border-radius: 50%;
+    transition: transform .4s ease-in-out;
+    z-index: 1000;
+    object-fit: cover;
+}
+
+.places {
+    margin-top: 64px;
+    margin-bottom: 140px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(72vw + 96px);
+}
+
+.places td {
+    padding: 16px;
+}
+
+.bubble:hover {
+    transform: scale(1.2)
+}
+
 .home-shape {
     margin-top: 100px;
     margin-right: 64px;
@@ -29,6 +88,7 @@ body {
 .home-top {
     position: relative;
     margin-left: 64px;
+    margin-right: 64px;
     margin-top: 32px;
     width: 80%;
     display: block;
@@ -193,7 +253,7 @@ td span {}
     height: 800px;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 16px;
 }
 
 .map-link {
@@ -247,6 +307,7 @@ td span {}
     bottom: 0;
     text-align: center;
     vertical-align: middle;
+    z-index: 1000;
 }
 
 .fixed {
@@ -280,6 +341,16 @@ td span {}
     }
 }
 
+@media screen and (max-width: 1015px) {
+    #middle-bubble {
+        display: none;
+    }
+    #right-bubble {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width:1000px) {
     .margin-top {
         margin-top: 36%;
@@ -291,6 +362,12 @@ td span {}
 }
 
 @media screen and (max-width:800px) {
+    .places {
+        display: block !important
+    }
+    .bubble {
+        display: none;
+    }
     .home-shape {
         display: none;
     }
@@ -326,9 +403,10 @@ td span {}
         padding-right: 0;
     }
     .home-top {
-        width: 100%;
+        width: auto;
         padding: 0;
         margin-left: 24px;
+        margin-right: 24px
     }
     .inline-div {
         width: 100%;
@@ -393,6 +471,13 @@ td span {}
 }
 
 @media screen and (max-width: 400px) {
+    .places {
+        margin-top: 32px;
+        width: calc(72vw + 48px);
+    }
+    .places td {
+        padding: 8px
+    }
     .information-table {
         margin-top: 64px;
     }

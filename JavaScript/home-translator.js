@@ -15,8 +15,8 @@ const enTitle = "Casa Kiki"
 
 const enDictionary = {
 
-    "title": 'Welcome',
-    "description": 'Are you searching?...<br>Nice.',
+    "title": 'Welcome to<br>Casa Kiki',
+    "description": 'Are you looking for an house in Cagliari?<br>Nice, find out more.',
     "apartment": "Apartment",
     "contact-me": "Contact me",
     "apartment-button": "Apartment",
