@@ -228,6 +228,7 @@ body {
     border-width: 0;
     -webkit-appearance: none;
     color: black;
+    display: none;
 }
 
 .picker:focus {

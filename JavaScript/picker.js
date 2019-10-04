@@ -22,7 +22,8 @@ function setPickerElement() {
 
     if (preference === null) {
 
-        preference = "en"
+        // preference = "en"
+        preference = "it"
 
     }
 
