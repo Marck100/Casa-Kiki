@@ -2,7 +2,7 @@ const itDictionary = {
     "apartment": "Appartamento",
     "contact-me": "Contatti",
     "title": "Gli ambienti",
-    "description": "Breve descrizione.<br>Lorem ipsum ciso ciao ciao",
+    "description": "Casa Kiki è dotata di diversi ambienti, un'estesa camera da letto, una comoda cucina, un bagno dotato di tutti i comfort e molto altro. Scopri di più grazie alle numerose immagini presenti.",
     "entrance-link": "Ingresso",
     "living-room-link": "Salone",
     "kitchen-link": "Cucina",
