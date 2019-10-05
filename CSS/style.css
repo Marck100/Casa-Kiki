@@ -111,7 +111,7 @@ body {
 }
 
 .margin-top {
-    margin-top: 24%;
+    margin-top: 8% !important;
 }
 
 .table-services td img {
@@ -332,13 +332,13 @@ td span {}
 
 @media screen and (max-width:1300px) {
     .margin-top {
-        margin-top: 28%;
+        margin-top: 16%;
     }
 }
 
 @media screen and (max-width:1200px) {
     .item-image {
-        margin-top: 32px;
+        margin-top: 16px;
     }
 }
 
@@ -354,7 +354,7 @@ td span {}
 
 @media screen and (max-width:1000px) {
     .margin-top {
-        margin-top: 36%;
+        margin-top: 8%;
     }
     .home-shape {
         width: 30%;
