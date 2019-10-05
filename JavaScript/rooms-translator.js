@@ -39,8 +39,8 @@ const itDictionary = {
 
 }
 
-const itTitle = "Ambienti";
-const enTitle = "Rooms"
+const itTitle = "Casa Kiki - Ambienti";
+const enTitle = "Casa Kiki - Rooms"
 
 const enDictionary = {
 

@@ -18,8 +18,8 @@ const itDictionary = {
 
 }
 
-const itTitle = "Appartamento";
-const enTitle = "Apartment"
+const itTitle = "Casa Kiki - Appartamento";
+const enTitle = "Casa Kiki - Apartment"
 
 const enDictionary = {
 

@@ -11,8 +11,8 @@ const itDictionary = {
 
 }
 
-const itTitle = "Contattami";
-const enTitle = "Contact me"
+const itTitle = "Casa Kiki - Contattami";
+const enTitle = "Casa Kiki - Contact me";
 
 const enDictionary = {
 
