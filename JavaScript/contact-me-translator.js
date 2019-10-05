@@ -1,6 +1,7 @@
 const itDictionary = {
 
     "title": 'Contatti',
+    "photos": "Foto",
     "description": 'Vuoi prenotare il tuo appartamento o ricevere qualche informazione?',
     "apartment": "Appartamento",
     "contact-me": "Contatti",
@@ -17,6 +18,7 @@ const enTitle = "Casa Kiki - Contact me";
 const enDictionary = {
 
     "title": 'Contact me',
+    "photos": "Photos",
     "description": 'Do you want..?',
     "apartment": "Apartment",
     "contact-me": "Contact me",

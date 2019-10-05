@@ -35,8 +35,8 @@ body {
 }
 
 #right-bubble {
-    top: 8%;
-    right: 4%;
+    top: 6%;
+    right: 2%;
 }
 
 #middle-bubble {
@@ -293,7 +293,7 @@ td span {}
 
 .carousel-inner {
     width: 90%;
-    margin: 64px auto;
+    margin: 64px 14.5vw;
 }
 
 .footer {

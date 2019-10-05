@@ -1,6 +1,7 @@
 const itDictionary = {
     "apartment": "Appartamento",
     "contact-me": "Contatti",
+    "photos": "Foto",
     "title": "Appartamento",
     "description": "Casa Kiki è un accogliente appartamento di 85 mq in centro città, nella Via La Vega adiacente al quartiere Villanova.<br>È un appartamento di recente ristrutturazione con pavimento in parquet, pompe di calore, wifi, ascensore e parcheggio interno.<br>Situato al secondo piano di un tranquillo condominio, presenta un ampio ingresso da cui si affaccia un grande salone con zona tv e sala da pranzo e da cui si può accedere al balcone che da sulla Via La Vega, una cucina con tavolo e sedie completamente accessoriata, una camera doppia con letto matrimoniale (180x200) o 2 letti singoli (90x200), un ampio bagno con doccia, un terrazzino con la zona lavanderia.",
     "rooms": "Ambienti",
@@ -25,6 +26,7 @@ const enDictionary = {
 
     "apartment": "Apartment",
     "contact-me": "Contact me",
+    "photos": "Foto",
     "title": "Apartment",
     "description": "Description, etc.",
     "rooms": "Rooms",

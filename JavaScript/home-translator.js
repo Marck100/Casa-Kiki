@@ -1,6 +1,7 @@
 const itDictionary = {
 
     "title": 'Benvenuto a<br>Casa Kiki',
+    "photos": "Foto",
     "description": 'Stai cercando una casa per trascorrere le tue vacanze in Sardegna?<br>Sei nel posto giusto.',
     "apartment": "Appartamento",
     "contact-me": "Contatti",
@@ -16,6 +17,7 @@ const enTitle = "Casa Kiki - Holiday Home"
 const enDictionary = {
 
     "title": 'Welcome to<br>Casa Kiki',
+    "photos": "Photos",
     "description": 'Are you looking for an house in Cagliari?<br>Nice, find out more.',
     "apartment": "Apartment",
     "contact-me": "Contact me",
