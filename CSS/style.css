@@ -366,6 +366,9 @@ td span {}
     .w-75 {
         width: 100vw !important;
     }
+    .carousel-control-next {
+        margin-right: 0.0% !important;
+    }
     .carousel-inner {
         margin-left: 5.2%;
         margin-right: 0;
