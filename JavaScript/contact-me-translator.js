@@ -7,7 +7,6 @@ const itDictionary = {
     "contact-me": "Contatti",
     "contact-me-button": "Contattami",
     "address": "Indirizzo",
-    "phone": "Telefono",
     "credits": 'Sviluppato da <strong><a style="color: #777;" href="https://www.marcopilloni.com" target="_blank">Marco Pilloni</a></strong>'
 
 }
@@ -24,7 +23,6 @@ const enDictionary = {
     "contact-me": "Contact me",
     "contact-me-button": "Contact me",
     "address": "Address",
-    "phone": "Phone",
     "credits": 'Developed by <strong><a style="color: #777;" href="https://www.marcopilloni.com" target="_blank">Marco Pilloni</a></strong>'
 
 }
